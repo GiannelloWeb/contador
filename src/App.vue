@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="https://vuejs.org/images/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Display />
+    <Increment />
   </div>
 </template>
 
 <script>
 import Display from './components/Display.vue';
 import Increment from './components/Increment.vue';
+import store from './vuex/store';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Display,
+    Increment
+  },
+  store: store
 }
 </script>
 
