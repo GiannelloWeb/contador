@@ -6,7 +6,8 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Display from './components/Display.vue';
+import Increment from './components/Increment.vue';
 
 export default {
   name: 'App',
