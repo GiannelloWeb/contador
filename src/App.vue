@@ -2,21 +2,21 @@
   <div id="app">
     <Display />
     <Increment />
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
 import Display from './components/Display.vue';
 import Increment from './components/Increment.vue';
-import store from './vuex/store';
+
 
 export default {
   name: 'App',
   components: {
     Display,
     Increment
-  },
-  store: store
+  }
 }
 </script>
 
